@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="personal, portfolio website">
+    <meta name="keywords" content=" html, html tutorials, html classes, html tags">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="Code Sailor">
+
+    <title>new</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body class="m-5 p-5">
+
+    <!-- data type and additional operator -->
+    <div class="row mt-3">
+        <div class="col-2">
+            <input type="number" class="form-control" id="one" value="" placeholder="enter number">
+        </div>
+        +
+        <div class="col-2">
+            <input type="number" class="form-control" id="two" value="" placeholder="enter number">
+        </div>
+
+        <div class="col-2">
+            <button onclick="getValue()" type="button" class="btn btn-secondary">Add Numbers</button>
+        </div>
+        =
+        <div class="col-2">
+            <span id="three" class="border"></span>
+        </div>
+    </div>
+
+
+    <!-- data type and subtraction operator -->
+    <div class="row mt-3">
+        <div class="col-2">
+            <input type="number" class="form-control" id="sone" value="" placeholder="enter number">
+        </div>
+        -
+        <div class="col-2">
+            <input type="number" class="form-control" id="stwo" value="" placeholder="enter number">
+        </div>
+
+        <div class="col-2">
+            <button onclick="subValue()" type="button" class="btn btn-secondary">Subtract Numbers</button>
+        </div>
+        =
+        <div class="col-2">
+            <span id="sthree" class="border"></span>
+        </div>
+    </div>
+
+
+    <!-- data type and multiplication operator -->
+    <div class="row mt-3">
+        <div class="col-2">
+            <input type="number" class="form-control" id="mone" value="" placeholder="enter number">
+        </div>
+        *
+        <div class="col-2">
+            <input type="number" class="form-control" id="mtwo" value="" placeholder="enter number">
+        </div>
+
+        <div class="col-2">
+            <button onclick="mulValue()" type="button" class="btn btn-secondary">Multiply Numbers</button>
+        </div>
+        =
+        <div class="col-2">
+            <span id="mthree" class="border"></span>
+        </div>
+    </div>
+
+
+    <!-- data type and division operator -->
+    <div class="row mt-3">
+        <div class="col-2">
+            <input type="number" class="form-control" id="done" value="" placeholder="enter number">
+        </div>
+        /
+        <div class="col-2">
+            <input type="number" class="form-control" id="dtwo" value="" placeholder="enter number">
+        </div>
+
+        <div class="col-2">
+            <button onclick="divValue()" type="button" class="btn btn-secondary">division Numbers</button>
+        </div>
+        =
+        <div class="col-2">
+            <span id="dthree" class="border"></span>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    <!-- events -->
+    <button onclick="showTime()" class="btn btn-primary">The Time is :</button>
+    <p id="tm" class="d-inline-block ms-2"></p>
+
+    <br>
+    <br>
+    <br>
+
+    <p onmouseover="this.style.color='red';" onmouseout="this.style.color='black';">Lorem ipsum, dolor sit amet
+        consectetur adipisicing elit. Omnis, eligendi.</p>
+    <br>
+    <br>
+    <br>
+
+    <p onmouseover="this.style.color='black';" onmouseout="this.style.color='skyblue';">Lorem ipsum dolor, sit amet
+        consectetur adipisicing elit. Consequatur, aliquam.</p>
+
+    <br>
+    <br>
+    <br>
+
+    <button onclick="clickMe()" class="btn btn-info">Click</button>
+    <p class="d-inline-block" id="bc">Bangladesh is my -<span id="cc">Country</span></p>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- remove space -->
+    <pre><p id="demo1"></p></pre>
+    <button onclick="removeSpace()">Click</button>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- remove space -->
+    <!-- <pre id="dem">    Hello there! </pre>
+
+    <button onclick="remove_Spaces()">Click</button> -->
+
+
+    <br>
+    <br>
+    <br>
+
+    <textarea id="textString" cols="50" rows="4">
+ This is a       block of text with some  extra    spaces in it.   Click the     button to remove them. 
+</textarea>
+    <button onclick="trimSpaces()">Click me</button>
+
+
+
+
+
+
+
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

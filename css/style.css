@@ -1,0 +1,15 @@
+span {
+    min-width: 35px;
+    height: 39px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.active {
+    color: green;
+    font-size: 20px;
+}
+
+#bc {
+    color: red;
+}
